@@ -1,15 +1,15 @@
-import Image from "next/image";
 import Hero from "@/components/Hero";
-import GearUp from "@/components/GearUp";
-import { CarouselSize } from "@/components/BEST"
+import ProductSlider from "@/components/ProductsSlider";
+import NikeAirForce from "@/components/NikeAirForce";
 
 
 export default function Home() {
   return (
-  
-  <main>
-    <Hero />
-    <GearUp />
-   </main>
-  );
+    <div>
+      <Hero />
+      <ProductSlider />
+      <NikeAirForce />
+    </div>
+ 
+  )
 }
